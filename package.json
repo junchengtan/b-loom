@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "productName": "my-app",
+  "productName": "b-loom",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -9,8 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
-    "dist": "electron-builder"
+    "lint": "echo \"No linting configured\""
   },
   "keywords": [],
   "author": {
@@ -54,21 +53,6 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.53",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.53",
     "@electron-forge/maker-zip": "^6.0.0-beta.53",
-    "electron": "10.1.0",
-    "electron-builder": "^6.14.4"
-  },
-  "build": {
-    "appId": "com.neomania.app",
-    "productName": "b-loom",
-    "target": "PKG",
-    "directories": {
-      "output": "build"
-    },
-    "pkg": {
-      "installLocation": "/Applications",
-      "welcome": "Welcome to a bespoke world!",
-      "conclusion": "Thank you for your support of b-loom!",
-      "isRelocatable": true
-    }
+    "electron": "10.1.0"
   }
 }
